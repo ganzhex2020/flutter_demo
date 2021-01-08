@@ -1,7 +1,9 @@
 import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/pages/HomePage.dart';
+import 'package:flutter_demo/pages/HotSearchPage.dart';
 import 'package:flutter_demo/pages/MinePage.dart';
+import 'package:flutter_demo/pages/ProjectPage.dart';
 import 'package:flutter_demo/pages/SystemPage.dart';
 
 class MainPage extends StatefulWidget {
@@ -20,6 +22,8 @@ class _MainPageState extends State<MainPage> {
     pageData
       ..add(HomePage())
       ..add(SystemPage())
+      ..add(HotSearchPage())
+      ..add(ProjectPage())
       ..add(MinePage());
   }
 
